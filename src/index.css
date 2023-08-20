@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito Sans", sans-serif;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        align-items: start;
+        justify-content: center;
+        padding: 4em;
+    }
+}
