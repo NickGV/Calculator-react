@@ -26,6 +26,7 @@ export const CalculatorComponent = () => {
     const calc = () => {
         const resultado = eval(result);
         setLastOperation(lastOperation + "=");
+        setLastOperation(resultado);
         setDisplay(resultado);
     };
     const removeElement = () => {
